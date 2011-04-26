@@ -1,6 +1,6 @@
 [user]
-	name  = Karel Minarik
-	email = karmi@karmi.cz
+	name  = Jiří Kubíček
+	email = jiri.kubicek@kraxnet.cz
 
 [color]
   ui = always
@@ -13,7 +13,7 @@
 	enabled = 1
 
 [core]
-  excludesfile = /Users/karmi/.gitignore
+  excludesfile = /Users/kubicek/.gitignore
   pager = less -FXRS
 
 [merge]

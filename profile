@@ -64,5 +64,8 @@ if [ -f ~/.cdpath ]; then
   cd $(cat ~/.cdpath)
 fi
 
+# RVM support
+[[ -s "/Users/kubicek/.rvm/scripts/rvm" ]] && source "/Users/kubicek/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
 # use .profile.local for setting machine-specific options
 [[ -f ~/.profile.local ]] && .  ~/.profile.local
